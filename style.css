@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./cine.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartaz{
+    width: 400px;
+    height: 500px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid rgb(25, 219, 25);
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartaz h1{
+    font-family: 'Erica One', cursive;
+    text-align: center;
+    color: orangered;
+    font-weight: normal;
+}
+
+.cartaz img{
+    width: 50px;
+    margin-top: 10px;
+}
+
+.form, p{
+    width: 300px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form p{
+    font-size: 20px;
+    color: aqua;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    font-family: 'Exo', sans-serif;
+    padding: 0 10px;
+    width: 150px;
+    height: 23px;
+    border: 0;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.botao-min{
+    width: 100px;
+}
+
+.botao-mostrar{
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid aqua;
+    transition: 0.5s;
+}
+
+.botao-mostrar:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.resp{
+    color: white;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 15px;
+}
